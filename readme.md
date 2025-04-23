@@ -1,6 +1,6 @@
 # NoEsis: A Modular LLM with Differentially Private Knowledge Transfer
 
-This is the Github repo that goes with the NoEsis project. The paper can be found at [arXiv](https://arxiv.org/).
+This is the Github repo that goes with the NoEsis project. The paper and peer-review can be found on [OpenReview](https://openreview.net/forum?id=UIzvc5u2Eu).
 
 # Structure
 Important abstractions made in the code and important changes with respect to default DP fine tuning:
@@ -34,6 +34,21 @@ python3 main_tune.py \
   We include the `scripts/run_dpfirst_pt.sh` shell script to execute this command and relevant flags in one go.
   Using `scripts/run_ftsecond_init__frompt.sh`, one can train the domain-specific parameters in the second tage
 
+# Poster
+
+![Poster](poster_and_paper/poster.png)
+
 # Information
 
-More information, please contact authors
+Correspondence: romijndersrob@gmail.com, mail@stefanos.cc, ali@brave.com, hamed@brave.com
+
+If you want to cite this work, please use the following BibTeX entry:
+
+```bibtex
+@article{noesis,
+  title={NoEsis: A Modular LLM with Differentially Private Knowledge Transfer},
+  author={Romijnders, Rob and Laskaridis, Stefano and Shanin-Shamsabadi, Ali and Haddadi, Hamed},
+  year={2025},
+  journal={ICLR 2025 Workshop on Modularity for Collaborative, Decentralized, and Continual Deep Learning (MCDC)},
+}
+```
